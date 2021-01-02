@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+
+li, a, button {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+/*Za mjenjanje boje u headeru treba stavit background-color:color; u headeru i li,a,button*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  height: 100px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  
+}
+
+img{
+  max-width:auto;
+    height:auto;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navlinks li a{
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: #0088a9;
+}
+
+button {
+  margin-left:20px ;
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:focus {
+  transform: scale(0.97);
+  outline: none;
+}
+
+button:active { outline: none }
+
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+
+}
+
+.div2 {
+  font-family:'Montserrat Alternates', sans-serif ;
+  font-size: 20px;
+  margin: 50px 20px;
+  display: flex;
+  color:#edf0f1 ;
+
+}
